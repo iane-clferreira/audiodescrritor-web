@@ -15,7 +15,7 @@ Frontend:
   
 Backend:
 * Node.js
-* API de Inteligência Artificial para descrição de imagens (https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/quickstart?hl=pt&usertype=adc#googlegenaisdk_imggen_mmflash_with_txt-nodejs_genai_sdk)
+* API de Inteligência Artificial para descrição de imagens (https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/quickstart?hl=pt&usertype=adc#googlegenaisdk_textgen_with_txt-nodejs_genai_sdk)
 * API Text-to-Speech para converter a descrição gerada em aúdio (https://docs.cloud.google.com/text-to-speech/docs/create-audio-text-client-libraries?hl=pt_BR#client-libraries-install-nodejs)
 ---
 
