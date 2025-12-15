@@ -6,11 +6,13 @@ Este projeto consiste em um **Descritor de Imagens**, desenvolvido com foco em *
 
 ## ► Tecnologias Utilizadas 
 O sistema utiliza tecnologias de desenvolvimento web e integração com APIs de inteligência artificial e audio para interpretar imagens e reproduzir descrições.
+
 Frontend: 
 * JavaScript
 * React + vite
 * HTML5
 * CSS3
+  
 Backend:
 * Node.js
 * API de Inteligência Artificial para descrição de imagens
