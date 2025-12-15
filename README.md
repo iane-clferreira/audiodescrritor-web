@@ -1,16 +1,64 @@
-# React + Vite
+# AudioDescritor de Imagens
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ► Descrição
 
-Currently, two official plugins are available:
+Este projeto consiste em um **Descritor de Imagens**, desenvolvido com foco em **acessibilidade**, para auxiliar **pessoas com deficiência visual**. A aplicação permite que o usuário envie uma imagem, a qual é analisada por uma API de inteligência artificial que gera uma descrição textual do conteúdo visual e, em seguida, retorna essa descrição em formato de áudio, possibilitando a compreensão da imagem por meio de som.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ► Tecnologias Utilizadas 
+O sistema utiliza tecnologias de desenvolvimento web e integração com APIs de inteligência artificial e audio para interpretar imagens e reproduzir descrições.
+Frontend: 
+* JavaScript
+* React + vite
+* HTML5
+* CSS3
+Backend:
+* Node.js
+* API de Inteligência Artificial para descrição de imagens
+* API Text-to-Speech para converter a descrição gerada em aúdio
+---
 
-## React Compiler
+## ► Integração Frontend e Backend
+O frontend da aplicação se comunica com o backend por meio de requisições HTTP.  
+O backend é responsável por receber a imagem enviada pelo usuário, processá-la utilizando um serviço de inteligência artificial, gerar a descrição e retornar o resultado para o frontend, que reproduz o aúdio para o usuário.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O código-fonte do backend está disponível em:
+https://github.com/iane-clferreira/AudioDescritor_BackEnd.git
 
-## Expanding the ESLint configuration
+## ► Como Executar o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Passos
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/iane-clferreira/audiodescrritor-web.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd audiodescrritor-web
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o projeto:
+
+```bash
+npm run dev
+```
+---
+
+##  Funcionalidades
+
+* Upload de imagens;
+* Reprodução automática do áudio com a descrição gerada;
+---
+
+##  Observação
+
+Este projeto foi desenvolvido com fins acadêmicos, como parte das atividades avaliativas da disciplina.
